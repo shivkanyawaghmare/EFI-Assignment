@@ -1,0 +1,42 @@
+
+<section class="registration-section">
+    <div class="registration-container">
+      <div class="registration-card">
+        <div class="registration-card-header">
+          <h3>Registration Form</h3>
+        </div>
+        <div class="registration-card-body">
+          <form (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your name" [(ngModel)]="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="Enter your email" [(ngModel)]="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input type="number" id="mobile" class="form-control" placeholder="Enter your mobile number" [(ngModel)]="mobile" name="mobile" required>
+            </div>
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input type="number" id="age" class="form-control" placeholder="Enter your age" [(ngModel)]="age" name="age" required>
+            </div>
+            <!-- <div class="form-group">
+                <label for="age">Address</label>
+                <input type="number" id="address" class="form-control" placeholder="Enter your address" [(ngModel)]="formData.address" name="address" required>
+              </div> -->
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" class="form-control" placeholder="Enter your password" [(ngModel)]="password" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+            <button type="button" class="btn btn-secondary btn-register" (click)="navigateToLogin()">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  

@@ -1,0 +1,90 @@
+.registration-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #f093fb, #f5576c);
+  }
+  
+  /* Registration Container */
+  .registration-container {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* Registration Card */
+  .registration-card {
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Registration Card Header */
+  .registration-card-header {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .registration-card-header h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Registration Card Body */
+  .registration-card-body {
+    padding: 2rem;
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form Label */
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Form Control */
+  .form-control {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  /* Button */
+  .btn {
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: background-color 0.15s ease-in-out;
+  }
+
+  .btn-register {
+    margin-left: 13px; /* Adjust this value to increase or decrease the space */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
